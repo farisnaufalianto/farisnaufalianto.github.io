@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Faris Naufalianto | Front-End Developer Portfolio</title>
+  <meta name="description" content="Portfolio of Faris Naufalianto, an Information Systems student at Universitas Trisakti building modern, responsive, and user-friendly websites. Open to Front-End Developer internship opportunities.">
+  <meta name="author" content="Faris Naufalianto">
+  <meta name="theme-color" content="#101010">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Faris Naufalianto | Front-End Developer">
+  <meta property="og:description" content="Information Systems student building modern, responsive, and user-friendly websites.">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon (inline SVG) -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23101010'/%3E%3Ctext x='32' y='44' font-family='Arial' font-size='36' font-weight='700' text-anchor='middle' fill='%23D4FF3F'%3EF%3C/text%3E%3C/svg%3E">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 + Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- Enable reveal animations only when JavaScript runs -->
+  <script>document.documentElement.classList.add("js");</script>
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <header>
+    <nav class="navbar navbar-expand-lg site-nav" id="siteNav" aria-label="Main navigation">
+      <div class="container">
+        <a class="navbar-brand brand" href="#home" aria-label="Faris, back to top">FARIS NAUFALIANTO<span class="brand__dot">.</span></a>
+
+        <button class="navbar-toggler nav-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+                aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation menu">
+          <i class="bi bi-list" aria-hidden="true"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item ms-lg-3"><a class="nav-link nav-link--cta" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="home" aria-labelledby="heroTitle">
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="container hero__inner">
+
+        <p class="hero__kicker">Information Systems Student / Front-End Developer</p>
+
+        <h1 class="hero__title" id="heroTitle">
+          <span class="line"><span class="line__inner">HI, I'm <span class="accent">Faris Naufalianto</span></span></span>
+
+        </h1>
+
+        <div class="hero__bottom">
+          <div class="hero__copy">
+            <p class="hero__desc">
+              I'm an Information Systems student at Trisakti University who enjoys turning designs into modern, responsive, and user friendly websites. I work with HTML, CSS, JavaScript, and Bootstrap, and I’m looking for a Front-End Developer internship where I can learn and contribute.
+            </p>
+            <div class="hero__actions">
+              <a href="#projects" class="btn-fx btn-fx--primary">View My Projects <i class="bi bi-arrow-down-right" aria-hidden="true"></i></a>
+              <a href="#contact" class="btn-fx btn-fx--ghost">Contact Me</a>
+            </div>
+          </div>
+
+          <div class="hero__side">
+            <span class="badge-live" role="status">
+              <span class="badge-live__pulse" aria-hidden="true"></span>
+              OPEN TO INTERNSHIP OPPORTUNITIES
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-hint" aria-label="Scroll to About section">
+        <span class="scroll-hint__line" aria-hidden="true"></span>
+        <span class="scroll-hint__text">Scroll</span>
+      </a>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="section" id="about" aria-labelledby="aboutTitle">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-5 reveal">
+            <p class="section__tag">About</p>
+            <h2 class="section__title" id="aboutTitle">Learning by building, one page at a time</h2>
+          </div>
+
+          <div class="col-lg-6 offset-lg-1 reveal" style="--d:.1s">
+            <div class="prose">
+              <p class="prose__lead">I'm an Information Systems student with an interest in Front-End Development and UI implementation.</p>
+              <p>I enjoy transforming ideas and designs into functional, responsive, and user friendly websites. Through academic and personal projects, I've gained hands on experience working with HTML, CSS, JavaScript, Bootstrap, and basic PHP.</p>
+              <p>I'm continuously exploring new technologies, improving my development skills, and looking for opportunities to grow as a Front-End Developer.</p>
+            </div>
+
+            <ul class="focus-list" aria-label="Areas of focus">
+              <li>Front-End Development</li>
+              <li>Website Development</li>
+              <li>UI Implementation</li>
+              <li>Responsive Web Design</li>
+              <li>User Interface Development</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <article class="edu reveal" aria-label="Education">
+          <div class="edu__icon" aria-hidden="true"><i class="bi bi-mortarboard"></i></div>
+          <div class="edu__main">
+            <p class="edu__label">Education</p>
+            <h3 class="edu__school">Trisakti University</h3>
+            <p class="edu__degree">Bachelor's Degree in Information Systems</p>
+          </div>
+          <p class="edu__place"><i class="bi bi-geo-alt" aria-hidden="true"></i> Jakarta, Indonesia</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===================== SKILLS ===================== -->
+    <section class="section section--alt" id="skills" aria-labelledby="skillsTitle">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="section__tag">Technical Skills</p>
+          <h2 class="section__title" id="skillsTitle">The tools I build with.</h2>
+        </div>
+
+        <div class="row g-3 g-lg-4">
+
+          <div class="col-lg-6 reveal">
+            <section class="skill-group skill-group--main" aria-labelledby="sg1">
+              <h3 class="skill-group__title" id="sg1">Front-End Development</h3>
+              <ul class="skill-list skill-list--grid">
+                <li class="skill"><i class="bi bi-filetype-html" aria-hidden="true"></i><span>HTML5</span></li>
+                <li class="skill"><i class="bi bi-filetype-css" aria-hidden="true"></i><span>CSS3</span></li>
+                <li class="skill"><i class="bi bi-filetype-js" aria-hidden="true"></i><span>JavaScript</span></li>
+                <li class="skill"><i class="bi bi-bootstrap" aria-hidden="true"></i><span>Bootstrap 5</span></li>
+              </ul>
+            </section>
+          </div>
+
+          <div class="col-md-6 col-lg-3 reveal" style="--d:.08s">
+            <section class="skill-group" aria-labelledby="sg2">
+              <h3 class="skill-group__title" id="sg2">Back-End &amp; Database</h3>
+              <ul class="skill-list">
+                <li class="skill"><i class="bi bi-filetype-php" aria-hidden="true"></i><span>PHP</span></li>
+                <li class="skill"><i class="bi bi-database" aria-hidden="true"></i><span>MySQL</span></li>
+              </ul>
+            </section>
+          </div>
+
+          <div class="col-md-6 col-lg-3 reveal" style="--d:.16s">
+            <section class="skill-group" aria-labelledby="sg3">
+              <h3 class="skill-group__title" id="sg3">Development Tools</h3>
+              <ul class="skill-list">
+                <li class="skill"><i class="bi bi-code-square" aria-hidden="true"></i><span>Visual Studio Code</span></li>
+                <li class="skill"><i class="bi bi-github" aria-hidden="true"></i><span>Git &amp; GitHub</span></li>
+              </ul>
+            </section>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PROJECTS ===================== -->
+    <section class="section" id="projects" aria-labelledby="projectsTitle">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="section__tag">Selected Projects</p>
+          <h2 class="section__title" id="projectsTitle">Things I've built while learning.</h2>
+        </div>
+
+        <!-- PROJECT 01 -->
+        <article class="project reveal" data-project="Faris Store">
+          <div class="project__media">
+            <div class="browser">
+              <div class="browser__bar" aria-hidden="true">
+                <span></span><span></span><span></span>
+                <em>faris-store</em>
+              </div>
+              <div class="browser__screen">
+                <img class="shot is-active" data-shot="01-Faris-Store" data-label="Login"
+                     alt="Faris Store login page with username and password form">
+                <img class="shot" data-shot="01-Faris-Store (2)" data-label="Homepage"
+                     alt="Faris Store homepage shown after login">
+                <div class="browser__fallback" aria-hidden="true">
+                  <span></span><span></span><span></span>
+                  <p>Add <b>01-Faris-Store</b> screenshots next to index.html</p>
+                </div>
+              </div>
+            </div>
+            <div class="shot-tabs" role="group" aria-label="Faris Store screenshots"></div>
+          </div>
+
+          <div class="project__body">
+            <p class="project__cat">Personal Practice Project</p>
+            <h3 class="project__name">Faris Store <span>E-Commerce Login Interface</span></h3>
+            <p class="project__desc">A simple e-commerce login interface featuring username and password validation, homepage navigation, and logout functionality.</p>
+
+            <ul class="project__features" aria-label="Features">
+              <li>Login interface</li>
+              <li>Username and password validation</li>
+              <li>Simple homepage</li>
+              <li>Navigation between pages</li>
+              <li>Logout functionality</li>
+            </ul>
+
+            <ul class="chips" aria-label="Technologies">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li>
+            </ul>
+
+            <div class="project__actions">
+              <button type="button" class="btn-fx btn-fx--primary js-open-shots">View Project <i class="bi bi-arrows-fullscreen" aria-hidden="true"></i></button>
+              <a href="https://github.com/farisnaufalianto" target="_blank" rel="noopener noreferrer" class="btn-fx btn-fx--ghost"><i class="bi bi-github" aria-hidden="true"></i> GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT 02 -->
+        <article class="project project--flip reveal" data-project="University Registration Website">
+          <div class="project__media">
+            <div class="browser">
+              <div class="browser__bar" aria-hidden="true">
+                <span></span><span></span><span></span>
+                <em>university-registration</em>
+              </div>
+              <div class="browser__screen">
+                <img class="shot is-active" data-shot="02-University-Registration (3)" data-label="Registration form"
+                     alt="University Registration Website student registration form">
+                <img class="shot" data-shot="02-University-Registration" data-label="Dashboard"
+                     alt="University Registration Website student dashboard after registration">
+                <div class="browser__fallback" aria-hidden="true">
+                  <span></span><span></span><span></span>
+                  <p>Add <b>02-University-Registration</b> screenshots next to index.html</p>
+                </div>
+              </div>
+            </div>
+            <div class="shot-tabs" role="group" aria-label="University Registration screenshots"></div>
+          </div>
+
+          <div class="project__body">
+            <p class="project__cat">Academic Project</p>
+            <h3 class="project__name">University Registration <span>Website</span></h3>
+            <p class="project__desc">A student registration website developed as part of an academic project, featuring a registration form and database integration.</p>
+
+            <ul class="project__features" aria-label="Features">
+              <li>Student registration form</li>
+              <li>User input validation</li>
+              <li>PHP database connection</li>
+              <li>MySQL data storage</li>
+            </ul>
+
+            <ul class="chips" aria-label="Technologies">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Bootstrap</li><li>PHP</li><li>MySQL</li>
+            </ul>
+
+            <div class="project__actions">
+              <button type="button" class="btn-fx btn-fx--primary js-open-shots">View Project <i class="bi bi-arrows-fullscreen" aria-hidden="true"></i></button>
+              <a href="https://github.com/farisnaufalianto" target="_blank" rel="noopener noreferrer" class="btn-fx btn-fx--ghost"><i class="bi bi-github" aria-hidden="true"></i> GitHub</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="section contact" id="contact" aria-labelledby="contactTitle">
+      <div class="container">
+        <div class="contact__top reveal">
+          <h2 class="contact__title" id="contactTitle">
+            LET'S BUILD<br><span class="accent">SOMETHING GREAT.</span>
+          </h2>
+          <p class="contact__desc">I'm currently looking for internship opportunities and excited to collaborate, learn, and grow as a Front-End Developer.</p>
+        </div>
+
+        <a class="contact__mail reveal" href="mailto:farisnovaal@gmail.com" aria-label="Send an email to farisnovaal@gmail.com">
+          <span class="contact__mail-label">Email</span>
+          <span class="contact__mail-addr">farisnovaal@gmail.com</span>
+          <i class="bi bi-arrow-up-right" aria-hidden="true"></i>
+        </a>
+
+        <ul class="contact__links reveal">
+          <li>
+            <a href="https://www.linkedin.com/in/farisnaufalianto" target="_blank" rel="noopener noreferrer" aria-label="Faris on LinkedIn">
+              <i class="bi bi-linkedin" aria-hidden="true"></i>
+              <span><b>LinkedIn</b><small>/in/farisnaufalianto</small></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/farisnaufalianto" target="_blank" rel="noopener noreferrer" aria-label="Faris on GitHub">
+              <i class="bi bi-github" aria-hidden="true"></i>
+              <span><b>GitHub</b><small>/farisnaufalianto</small></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/farisnovaal" target="_blank" rel="noopener noreferrer" aria-label="Faris on Instagram">
+              <i class="bi bi-instagram" aria-hidden="true"></i>
+              <span><b>Instagram</b><small>@farisnovaal</small></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/6282123812117" target="_blank" rel="noopener noreferrer" aria-label="Chat with Faris on WhatsApp">
+              <i class="bi bi-whatsapp" aria-hidden="true"></i>
+              <span><b>WhatsApp</b><small>+62 821-2381-2117</small></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__row">
+        <div>
+          <a class="brand" href="#home" aria-label="Back to top">FARIS<span class="brand__dot">.</span></a>
+          <p class="footer__meta">Front-End Developer<br>Jakarta, Indonesia</p>
+        </div>
+
+        <ul class="footer__social" aria-label="Social media links">
+          <li><a href="https://www.linkedin.com/in/farisnaufalianto" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a></li>
+          <li><a href="https://github.com/farisnaufalianto" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="bi bi-github" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.instagram.com/farisnovaal" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="bi bi-instagram" aria-hidden="true"></i></a></li>
+          <li><a href="https://wa.me/6282123812117" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="bi bi-whatsapp" aria-hidden="true"></i></a></li>
+          <li><a href="mailto:farisnovaal@gmail.com" aria-label="Email"><i class="bi bi-envelope" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+      <p class="footer__copy">Copyright &copy; 2026 Faris Naufalianto.</p>
+    </div>
+  </footer>
+
+  <!-- ===================== SCREENSHOT VIEWER ===================== -->
+  <dialog class="viewer" id="viewer" aria-labelledby="viewerTitle">
+    <div class="viewer__head">
+      <p class="viewer__title" id="viewerTitle"></p>
+      <button type="button" class="viewer__close" aria-label="Close preview"><i class="bi bi-x-lg" aria-hidden="true"></i></button>
+    </div>
+    <div class="viewer__stage"><img id="viewerImg" alt=""></div>
+    <div class="viewer__tabs shot-tabs" role="group" aria-label="Screenshots"></div>
+  </dialog>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
